@@ -20,3 +20,8 @@ modelo.fit(X_train,y_train)
 
 y_pred = modelo.predict(X_test)
 print(classification_report(y_test, y_pred))
+
+#El cero indicaria maligno, el 1 benigno, lo que nos saca nos dice
+#Para los malignos acierto el 98% de las veces, si eran malignos les detecto un 95%, mi media entre los dos es 96% y hay 43 casos de ello
+#Para los benignos acierto el 97% de las veces, si eran benignos les detecto un 99%, mi media entre los dos es 98% y hay 71 casos de ello
+#Mas alla de eso muestra la precision 97%
